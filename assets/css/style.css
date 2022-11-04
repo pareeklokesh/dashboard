@@ -213,7 +213,7 @@ font-size: 12px;
   z-index: 99;
 }
 .drawer-menu-heading {
-  padding-top: 35px;
+  padding-top: 5px;
   padding-right: 18px;
   padding-bottom: 12px;
   padding-left: 18px;
@@ -395,25 +395,12 @@ body {
 
 .scroller::-webkit-scrollbar {
   background: white;
-  scrollbar-width: thin;
+  scrollbar-width: thin;height: 2px;
+    width: 4px;
 }
 
 .scroller::-webkit-scrollbar-thumb {
-  background: #000;scrollbar-width: thin;
+  background: #000;
 }
 
-/*::-webkit-scrollbar {
-    height: 12px;
-    width: 12px;
-    background: #000 #fff;
-}
 
-::-webkit-scrollbar-thumb {
-    background: #393812;
-    -webkit-border-radius: 1ex;
-    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
-}
-
-::-webkit-scrollbar-corner {
-    background: #000;
-}*/

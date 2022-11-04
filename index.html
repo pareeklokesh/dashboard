@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dashboard</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header-wrapper">
+			<div class="logo-menu">
+				<button class="menu-toggle">
+					<img src="assets/img/toggle-bar.png" />
+				</button>
+				<a href="#">
+					<img src="assets/img/logo.png" />
+				</a>
+			</div>
+			<div class="status-game">
+				<p>Status:<span>Live</span></p>
+				<select class="header-select">
+					<option>Dhamaalgames</option>
+					<option>Dhamaalgames</option>
+					<option>Dhamaalgames</option>
+				</select>
+			</div>
+		</div>
+	</header>
+<div class="full-page">
+
+
+<!-- Left Side Menu -->
+
+<div class="dashboardo-block">
+	<div class="das-menu">
+		<div class="drawer-menu-heading">Interface</div>
+		<div class="das-menu-list">
+			<ul>
+				<li>
+					<a href="#"><img src="assets/img/dashboard.png" /><span>Dashboard</span></a>
+				</li>
+				<li class="dropdown">
+					<a href="#"><img src="assets/img/dashboard.png" /><span>Layouts</span> <span class="arrow"><img src="assets/img/right.png" width="8" /></span></a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Layouts 1</a>
+						</li>
+						<li>
+							<a href="#">Layouts 2</a>
+						</li>
+						<li>
+							<a href="#">Layouts 3</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#"><img src="assets/img/dashboard.png" /><span>Page</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Page 1</a>
+						</li>
+						<li>
+							<a href="#">Page 2</a>
+						</li>
+						<li>
+							<a href="#">Page 3</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#"><img src="assets/img/dashboard.png" /><span>Overview</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Overview 1</a>
+						</li>
+						<li>
+							<a href="#">Overview 2</a>
+						</li>
+						<li>
+							<a href="#">Overview 3</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="drawer-menu-heading space-hb">UI Toolkit</div>
+		<div class="das-menu-list">
+			<ul>
+				<li>
+					<a href="#"><img src="assets/img/dashboard.png" /><span>Components</span></a>
+				</li>
+				<li class="dropdown">
+					<a href="#"><img src="assets/img/dashboard.png" /><span>Content</span> <span class="arrow"><img src="assets/img/right.png" width="8" /></span></a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Content 1</a>
+						</li>
+						<li>
+							<a href="#">Content 2</a>
+						</li>
+						<li>
+							<a href="#">Content 3</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#"><img src="assets/img/dashboard.png" /><span>Forms</span>
+					</a>
+				</li>
+				<li class="dropdown">
+					<a href="#"><img src="assets/img/dashboard.png" /><span>Utilities</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Utilities 1</a>
+						</li>
+						<li>
+							<a href="#">Utilities 2</a>
+						</li>
+						<li>
+							<a href="#">Utilities 3</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="das-footer">
+		
+	</div>
+</div>
+
+
+
+	<div class="loader-line"></div>
+	<!-- <div class="refresh">
+		<button class="refresh-btn"> <img src="assets/img/refresh.png" /></button>
+	</div> -->
+	<div class="right-sidebar">
+	<ul class="dashboard-list">
+		<li>
+			<strong>0</strong>
+			<span>Live Tables</span>
+		</li>
+		<li>
+			<strong>0</strong>
+			<span>Queue Tables</span>
+		</li>
+		<li>
+			<strong>0</strong>
+			<span>Tournaments</span>
+		</li>
+		<li>
+			<strong>0</strong>
+			<span>Players</span>
+		</li>
+		<li>
+			<strong>0</strong>
+			<span>AI Users</span>
+		</li>
+		<li>
+			<strong>0</strong>
+			<span>Others</span>
+		</li>
+	</ul>
+	<div class="alltask">
+		
+		<div class="w-50 task-content" style="background: #7cdce9;">
+			<div class="task-header">
+				<div class="" style="width:auto;display: flex;align-items: center;">
+				<img src="assets/img/dot.png" width="8" /><h2>All Tasks</h2><img src="assets/img/right.png" width="8" />
+				<p class="count-data">count: <span>6</span></p>
+			</div>
+			<div style="width:auto;">
+				<img src="assets/img/refresh.png" style="float: right;" />
+				</div>
+			</div>
+			<div class="task-data">
+				<table class="data-table" border="0">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Description</th>
+							<th>Date</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td></td>
+							<td>this is a test cliq task</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>this is a test cliq task</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>this is a test cliq task</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>this is a test cliq task</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>this is a test cliq task</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>this is a test cliq task</td>
+							<td>02-06-2020</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="w-50 task-content">
+			<div class="task-header">
+				<div class="" style="width:auto;display: flex;align-items: center;">
+				<img src="assets/img/dot.png" width="8" /><h2>All Tasks</h2><img src="assets/img/right.png" width="8" />
+				<select>
+					<option>Overdue</option>
+					<option>Overdue</option>
+					<option>Overdue</option>
+				</select>
+			</div>
+			<div style="width:auto;">
+				<img src="assets/img/refresh.png" style="float: right;" />
+				</div>
+			</div>
+			<div class="task-data">
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="alltask">
+		
+		<div class="w-50 task-content">
+			<div class="task-header">
+				<div class="" style="width:auto;display: flex;align-items: center;">
+				<img src="assets/img/dot.png" width="8" /><h2>All Tasks</h2><img src="assets/img/right.png" width="8" />
+				<select>
+					<option>Overdue</option>
+					<option>Overdue</option>
+					<option>Overdue</option>
+				</select>
+			</div>
+			<div style="width:auto;">
+				<img src="assets/img/refresh.png" style="float: right;" />
+				</div>
+			</div>
+			<div class="task-data">
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="w-50 task-content">
+			<div class="task-header">
+				<div class="" style="width:auto;display: flex;align-items: center;">
+				<img src="assets/img/dot.png" width="8" /><h2>All Tasks</h2><img src="assets/img/right.png" width="8" />
+				<select>
+					<option>Overdue</option>
+					<option>Overdue</option>
+					<option>Overdue</option>
+				</select>
+			</div>
+			<div style="width:auto;">
+				<img src="assets/img/refresh.png" style="float: right;" />
+				</div>
+			</div>
+			<div class="task-data">
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<div class="alltask">
+
+		<div class="w-50 task-content">
+			<div class="task-header">
+				<div class="" style="width:auto;display: flex;align-items: center;">
+				<img src="assets/img/dot.png" width="8" /><h2>All Tasks</h2><img src="assets/img/right.png" width="8" />
+				<select>
+					<option>Overdue</option>
+					<option>Overdue</option>
+					<option>Overdue</option>
+				</select>
+			</div>
+			<div style="width:auto;">
+				<img src="assets/img/refresh.png" style="float: right;" />
+				</div>
+			</div>
+			<div class="task-data">
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="w-50 task-content">
+			<div class="task-header">
+				<div class="" style="width:auto;display: flex;align-items: center;">
+				<img src="assets/img/dot.png" width="8" /><h2>All Tasks</h2><img src="assets/img/right.png" width="8" />
+				<select>
+					<option>Overdue</option>
+					<option>Overdue</option>
+					<option>Overdue</option>
+				</select>
+			</div>
+			<div style="width:auto;">
+				<img src="assets/img/refresh.png" style="float: right;" />
+				</div>
+			</div>
+			<div class="task-data">
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+
+<script>
+  $(".dropdown a").click(function(){
+    $(this).toggleClass("dropdown-active");
+    $(this).next(".sub-menu-list").toggleClass("sub_menu_active");
+  });
+</script>
+<script>
+	
+	$(".menu-toggle").click(function(){
+		$(this).toggleClass('menu-toggle-active');
+    $(".dashboardo-block").toggleClass("dashboardo-block-active");
+    $(".full-page").toggleClass("full-page-active");
+  });
+</script>
+
+</body>
+</html>

@@ -484,5 +484,20 @@ margin-right: 10px;
 .alltask {
   flex-wrap: wrap;
 }
+.logo-menu a img {
+  width: 100px;
+}
+.menu-toggle {
+  margin-right: 0;
+}
+.header {
+  padding-left: 2px;
+}
+.status-game p {
+  display: none;
+}
+.loader-line {
+  top: 68px;
+}
 
 }

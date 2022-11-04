@@ -193,6 +193,7 @@ font-size: 12px;
 .task-data table tr td:last-child {
   color: #ff0000;
   font-size: 14px;
+  text-align: right;
 }
 .full-page {
   padding: 10px 15px;
@@ -205,7 +206,7 @@ font-size: 12px;
   color: #616161;
   border-right: 1px solid #e0e0e0;
   padding-top: 4.5rem;
-  width: 280px;
+  width: 240px;
   position: fixed;
   top: 0;
   left: 0;
@@ -225,7 +226,7 @@ font-size: 12px;
   text-decoration: none;
   padding: 12px 18px;
   color: #616161;
-  font-size: 14px;
+  font-size: 13px;
   display: flex;
   align-items: center;
   position: relative;
@@ -304,14 +305,17 @@ font-size: 12px;
   filter: brightness(0) invert(1);
   width: 30px;
 }
-.menu-toggle:hover, .menu-toggle-active {
+.menu-toggle:hover, .menu-toggle {
   background: #2e2e2e;
 }
+.menu-toggle-active {
+  background: transparent;
+}
 .dashboardo-block {
-  transform: translateX(-260%);
+  transform: translateX(0);
 }
 .dashboardo-block.dashboardo-block-active {
-  transform: translateX(0);
+  transform: translateX(-260%);
 }
 .header-wrapper {
   display: flex;
@@ -344,8 +348,11 @@ padding-right: 15px;
 .full-page {
   transition: all .4s linear;
 }
-.full-page.full-page-active {
+.full-page {
   padding-left: 295px;
+}
+.full-page-active {
+  padding-left: 15px;
 }
 body {
   padding-top: 90px;

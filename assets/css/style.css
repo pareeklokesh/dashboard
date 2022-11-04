@@ -191,7 +191,6 @@ font-size: 12px;
   font-size: 14px;
 }
 .task-data table tr td:last-child {
-  color: #ff0000;
   font-size: 14px;
   text-align: right;
 }
@@ -385,3 +384,36 @@ body {
 .task-data table.data-table tr td ,.task-data table.data-table tr th {
   border: 0;
 }
+
+
+
+
+.scroller {
+  scrollbar-color: #000 #fff;
+  scrollbar-width: thin;
+}
+
+.scroller::-webkit-scrollbar {
+  background: white;
+  scrollbar-width: thin;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+  background: #000;scrollbar-width: thin;
+}
+
+/*::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #000 #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #393812;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+    background: #000;
+}*/

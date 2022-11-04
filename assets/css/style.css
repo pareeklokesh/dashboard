@@ -424,5 +424,8 @@ table{counter-reset: Serial; }
 .logo-menu a img {
   width: 150px;
 }
+.dropdown-active .arrow img {
+  transform: rotate(89deg);
+}
 
 

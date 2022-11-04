@@ -132,7 +132,7 @@ min-height: 50px;
 .task-header h2 {
   font-size: 18px;
   font-weight: 500;
-  margin: 0 10px;
+  margin: 0;
 }
 .task-header select {
   background: transparent;
@@ -355,8 +355,9 @@ padding-right: 15px;
 }
 body {
   padding-top: 90px;
-  counter-reset: Serial; 
+  
 }
+table{counter-reset: Serial; }
 .right-sidebar {
   width: 100%;
   float: left;
@@ -384,10 +385,6 @@ body {
 .task-data table.data-table tr td ,.task-data table.data-table tr th {
   border: 0;
 }
-
-
-
-
 .scroller {
   scrollbar-color: #000 #fff;
   scrollbar-width: thin;
@@ -401,6 +398,19 @@ body {
 
 .scroller::-webkit-scrollbar-thumb {
   background: #000;
+}
+.loader-line {
+  position: fixed;
+  z-index: 9999;
+  top: 73px;
+  display: none;
+}
+.refresh-data {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
 }
 
 

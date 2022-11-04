@@ -240,7 +240,7 @@ padding-left: 85px;
   width: 18px;
   filter: grayscale(0) invert(1);
 }
-.das-menu-list ul li a:hover img {
+.das-menu-list ul li a:hover img, .das-menu-list ul li a.dropdown-active img {
 opacity: 1;filter: inherit;
 }
 .das-menu-list ul li a * {transition: .4s linear;}
@@ -266,7 +266,7 @@ opacity: 1;filter: inherit;
 .das-menu-list ul * , .das-menu-list ul {
   transition: all .4s linear;
 }
-.das-menu-list ul li a:hover {
+.das-menu-list ul li a:hover, .das-menu-list ul li a.dropdown-active {
   color: #212121;
   background: #fff;
 }

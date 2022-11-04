@@ -355,7 +355,9 @@ padding-right: 15px;
   transition: all .4s linear;
 }
 .full-page {
-  padding-left: 295px;
+  padding-left: 255px;
+width: 100%;
+float: left;
 }
 .full-page-active {
   padding-left: 15px;

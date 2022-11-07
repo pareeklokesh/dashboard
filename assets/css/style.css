@@ -440,6 +440,16 @@ display: block;
   text-align: right;
   padding-right: 35px;
 }
+.task-data .data-table.players-data tr td {
+  padding-left: 10px;padding-right: 10px;text-align: center;
+}
+.task-data .data-table.players-data tr th {
+  text-align: center;
+}
+.task-data table.table-before tr td::before {
+  display: none;
+}
+
 
 
 

@@ -460,6 +460,11 @@ display: block;
   width: 15px;
   margin-top: 2px;
 }
+.status-game p {
+  border-right: 0;
+margin: 0;
+padding: 0;
+}
 
 
 
@@ -515,11 +520,6 @@ margin-right: 10px;
 }
 .header {
   padding-left: 2px;
-}
-.status-game p {
-  border-right: 0;
-margin: 0;
-padding: 0;
 }
 .loader-line {
   top: 68px;

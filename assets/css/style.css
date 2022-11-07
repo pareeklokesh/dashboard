@@ -377,7 +377,7 @@ table{counter-reset: Serial; }
   margin-left: 15px;
   font-size: 14px;
   text-transform: capitalize;
-  margin-top: -4px;
+  margin-top: -1px;
 }
 .data-table tbody tr td:first-child:before{
   counter-increment: Serial;      

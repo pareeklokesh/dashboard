@@ -451,6 +451,14 @@ display: block;
 }
 
 
+.task-data thead th {
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+
+
+
 
 
 

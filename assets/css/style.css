@@ -522,5 +522,8 @@ margin-right: 10px;
 .loader-line {
   top: 68px;
 }
+.task-data {
+  height: 190px;
+}
 
 }

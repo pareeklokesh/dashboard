@@ -523,7 +523,24 @@ margin-right: 10px;
   top: 68px;
 }
 .task-data {
-  height: 190px;
+  height: 130px;
 }
+.dashboard-list li span {
+  font-size: 11px;
+  white-space: nowrap;
+}
+body {
+  padding-top: 75px;
+}
+.dashboard-list {
+  margin-bottom: 5px;
+}
+.task-header h2 {
+  font-size: 15px;
+}
+.task-data table tr td, .task-data table tr th {
+  font-size: 12px;padding: 5px 4px;
+}
+
 
 }

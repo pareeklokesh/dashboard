@@ -143,8 +143,8 @@ min-height: 50px;
   margin-left: 15px;
 }
 .task-header {
-  margin-top: 15px;
-  margin-bottom: 20px;
+  margin-top: 5px;
+margin-bottom: 2px;
   justify-content: space-between;
 }
 .task-data {
